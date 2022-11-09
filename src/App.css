@@ -1,0 +1,27 @@
+body {  
+  background-color: rgb(255, 248, 239, 0.25);
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+  margin-top: 30vh;
+}
+
+.value {
+  text-align: center;
+  border: 0.25vh solid rgb(200, 0, 0);
+  padding: 0.8vh;
+}
+
+button {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.25vh solid rgb(200, 0, 0);
+  font-size: 1em;
+}
